@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="shortcut icon" href="Images/cars-removebg-preview (1).png">
 </head>
-<body id="home">
+<body class="scrollspy section" id="home">
   <div class="preloader">
     <img src="Images/e26300c0c746d3163a0f48223c897cee.gif" alt="" width="20%" style="position: fixed; top: 40%; left: 40%;">
 </div>
@@ -30,7 +30,7 @@
                 <div class="right">
                 <ul class="left hide-on-med-and-down">
                     <li><a href="#home">HOME</a></li> 
-                    <li><a href="#aout">ABOUT</a></li>
+                    <li><a href="#about">ABOUT</a></li>
                     <li><a href="#product">PRODUCTS</a></li>
                     <li><a href="#contact">CONTACT US</a></li>
                 </ul>
@@ -76,7 +76,7 @@
         <p class="p1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. In quibusdam aut ea ad molestiae error vitae aliquam magni nisi odit eos placeat, quas deleniti quod dolorem temporibus a fugiat tempora at magnam accusantium, reprehenderit aliquid, quos doloremque? Illo quo sequi at recusandae aperiam repellat sunt eum quas nobis debitis tenetur nisi voluptatem obcaecati architecto et modi temporibus ducimus accusantium numquam consequatur, distinctio officiis rerum, blanditiis qui. Fuga inventore itaque nam maxime obcaecati dolorem quidem cum quibusdam odio voluptatum consequatur aliquam, nesciunt esse voluptas rem soluta consequuntur quia necessitatibus culpa facilis reprehenderit est laborum. Impedit, totam? Excepturi similique molestiae laboriosam delectus.</p>
       </div>
 
-      <div class="center" id="about">
+      <div class="center scrollspy section" id="about">
         <span class="sp1">Click Below To View</span>
       </div>
 
@@ -375,7 +375,7 @@
       </div>
 
 
-      <div class="container" id="product">
+      <div class="container scrollspy section" id="product">
         <span style="font-size: 30px; font-weight: bolder;">Categories & Designs</span>
       </div><br>
 
@@ -597,7 +597,7 @@
       </div><br>
 
 
-      <div class="container row">
+      <div class="container row center">
         <div class="col l6">
           <span style="font-size: 30px; font-weight: bold;">Available Cars For Lease</span>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium dolore magni aut numquam vel possimus sunt quae minus, rerum earum rem dignissimos minima eos velit ut officia alias debitis in!</p>
@@ -611,10 +611,10 @@
           </div>
         </div>
 
-        <div class="col l6" id="contact">
+        <div class="col l6 scrollspy section" id="contact">
           <form action="">
             <div class="row">
-                <div class="col l6">
+                <div class="col l6 center">
                   <span style="font-size: 20px; font-weight: bold; color: red;">Sign Up Here</span><br><br>
                     <label for="">First Name</label>
                     <input type="text" placeholder="">
@@ -723,7 +723,12 @@
     });
     $(document).ready(function(){
     $('.carousel').carousel();
+    });
+    $(document).ready(function(){
+    $('.scrollspy').scrollSpy();
   });
+      
+  
     </script>
 </body>
 </html>
