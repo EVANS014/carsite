@@ -1,0 +1,63 @@
+.h1 {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.p1 {
+    font-size: 18px;
+    text-align: justify;
+}
+
+.sp1 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.sp2 {
+    font-size: 18px;
+    text-align: justify;
+}
+
+.sp3 {
+    font-size: 18px;
+    text-align: justify;
+}
+
+.sp4 {
+    font-size: 18px;
+    text-align: justify;
+}
+
+.sp5 {
+    font-size: 18px;
+    text-align: justify;
+}
+
+.sp6 {
+    font-size: 18px;
+    text-align: justify;
+}
+.whatsapp_float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: green;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    font-size: 25px;
+    z-index: 900;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-decoration: none;
+    transition: transform 0.3s;
+   }
+   .whatsapp_float:hover{
+    transform: scale(1.1);
+   }
+   .whatsapp_icon{
+    font-size: 25px;
+    color: white;
+   }
